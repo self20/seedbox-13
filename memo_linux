@@ -1,0 +1,3 @@
+See a file permissions in octal form on a Linux/Unix : 
+f=/etc/hosts
+stat -c '%a' ${f} # GNU
